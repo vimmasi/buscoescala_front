@@ -24,6 +24,10 @@ Siga estas etapas para instalar e executar o projeto localmente:
     ```
     npm run dev
     ```
+5. Acesse o projeto:
+    ```
+    http://localhost:5173
+    ```
 
 ## Uso
 
