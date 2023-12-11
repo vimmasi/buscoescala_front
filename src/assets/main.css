@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    /* Página Início */
+    .escala-container {
+        @apply flex-col justify-center items-center w-full pt-40
+    }
+
+    .apresentacao {
+        @apply text-2xl text-center mb-24
+    }
+
+    .accordeon-container {
+        @apply flex items-center justify-center mb-6
+    }
+
+    .accordeon-botao {
+        @apply flex justify-center items-center cursor-default
+    }
+
+    .accordeon-titulo {
+        @apply text-xl text-feijoa-300 pb-1
+    }
+
+    .accordeon-titulo-icone {
+        @apply bg-shark-950 rounded-full flex justify-center items-center text-2xl pb-1 w-8 h-8 ml-4 border border-shark-900 hover:border-feijoa-300 hover:text-feijoa-300 transition-colors cursor-pointer
+    }
+
+    .tabela-cabecalho {
+        @apply border-b-2 border-shark-100
+    }
+
+    .tabela-corpo {
+        @apply divide-y divide-dashed divide-shark-700 border border-dashed border-shark-700
+    }
+
+    .tabela-dado {
+        @apply border-r border-dashed border-shark-700 pr-8 text-center
+    }
+
+    .tabela-dado-lista {
+        @apply px-8 mb-4 list-disc marker:text-feijoa-300
+    }
+
+    .botao-delete {
+        @apply p-2 m-4 rounded-md bg-petite-orchid-500 border border-petite-orchid-500 hover:border-petite-orchid-300 focus:border-petite-orchid-300
+    }
+
+    /* Página Novo Militar */
+    .militar-container {
+        @apply flex flex-col gap-4 justify-center items-center h-screen
+    }
+
+    .militar-subcontainer {
+        @apply flex-col justify-center p-4 w-1/2
+    }
+
+    .militar-titulo {
+        @apply text-center mb-4 border-b
+    }
+
+    .form-input {
+        @apply bg-shark-950 px-2 py-1 rounded-md text-sm w-1/2 mb-4 border border-shark-900 hover:border-feijoa-300 focus:border-feijoa-300 focus:outline-none transition-colors
+    }
+
+    .botao {
+        @apply p-2 m-4 rounded-md bg-shark-950 border border-shark-900 hover:border-feijoa-300 focus:border-feijoa-300 transition-colors
+    }
+}
+
+body {
+    background-color: #3b3d3e;
+  }
