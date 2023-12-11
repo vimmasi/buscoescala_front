@@ -27,12 +27,10 @@ Siga estas etapas para instalar e executar o projeto localmente:
 
 ## Uso
 
-Descreva como usar seu aplicativo, quais recursos estão disponíveis e como eles funcionam.
-
-## Contribuição
-
-Forneça instruções sobre como outros desenvolvedores podem contribuir para o seu projeto.
+O projeto possui 2 páginas:
+- A principal, onde são exibidas as escalas e os militares
+- A página para cadastrar um novo militar
 
 ## Licença
 
-Inclua informações sobre a licença do seu projeto.
+Esse projeto é livre para uso.
