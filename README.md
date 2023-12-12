@@ -13,7 +13,7 @@ Siga estas etapas para instalar e executar o projeto localmente:
 
 1. Clone o repositório:
     ```
-    https://github.com/vimmasi/buscoescala_front.git
+    git clone https://github.com/vimmasi/buscoescala_front.git
     ```
 2. Navegue até o diretório do projeto:
     ```
