@@ -13,12 +13,11 @@ Siga estas etapas para instalar e executar o projeto localmente:
 
 1. Clone o repositório:
     ```
-    git clone https://github.com/seuusuario/seuprojeto-frontend.git
+    [git clone https://github.com/seuusuario/seuprojeto-frontend.git](https://github.com/vimmasi/buscoescala_front.git)
     ```
 2. Navegue até o diretório do projeto:
     ```
-    cd buscoescala
-    ```
+    cd buscoescala_front
 3. Instale as dependências:
     ```
     npm install
