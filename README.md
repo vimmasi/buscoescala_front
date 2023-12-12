@@ -6,6 +6,9 @@ Integrando-se à API MPV Sprint 1 da PUC-Rio, essa é a parte visual do código 
 
 ## Instalação
 
+Este projeto requer o Node.js instalado. Acesse o link para instalar:
+> https://nodejs.org/en/download/
+
 Siga estas etapas para instalar e executar o projeto localmente:
 
 1. Clone o repositório:
